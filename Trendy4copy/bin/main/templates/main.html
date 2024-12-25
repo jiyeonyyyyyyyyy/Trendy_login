@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .video-container {
+            margin-top: 20px;
+        }
+
+        .login-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #f9e000;
+            color: #3c1e1e;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .login-button:hover {
+            background-color: #ffe600;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Main Page</h1>
+    <div class="video-container">
+        <a href="https://youtu.be/Cur3b5NX_nk?si=oHq9z4dLLHWnIQWG" target="_blank">
+            <video autoplay muted loop>
+                <source src="your_video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </a>
+    </div>
+	<a href="https://kauth.kakao.com/oauth/authorize?response_type=code
+			&client_id=5f437335c73db193eccb36fa22153089
+			&redirect_uri=http://localhost:3000/login/oauth2/code/kakao">
+				<img src="https://k.kakaocdn.net/14/dn/btroDszwNrM/I6efHub1SN5KCJqLm1Ovx1/o.jpg" />
+			</a>
+</body>
+</html>

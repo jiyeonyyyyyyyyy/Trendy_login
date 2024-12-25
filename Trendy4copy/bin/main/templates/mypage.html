@@ -1,0 +1,12 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+<h1>Welcome, <span th:text="${user.username}"></span></h1>
+<p>Your email: <span th:text="${user.email}"></span></p>
+<p>Your profile image: <img th:src="${user.profileImageUrl}" alt="Profile Image"></p>
+</body>
+</html>
